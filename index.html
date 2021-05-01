@@ -21,7 +21,7 @@
 
 <center><img src="img/logo.png" width="20%" /></center>
 
-<p><input id="bin-search" type="text" placeholder="Encontre entre 3 empresas por nome (ex., 'Tech') ou por categoria (ex., '/informatica')" /></p>
+<p><input id="bin-search" type="text" placeholder="Encontre entre 3 empresas por nome (ex., 'Tech') ou por categoria (ex., '#informatica')" /></p>
 
 <div id="bin-table-wrapper">
     <table id="bin-table">
@@ -29,54 +29,54 @@
             <tr>
                 <th>Empresa</th>
 				<th>Categoria</th>
-				<th>Ramo</th>
+				<th>Tipo</th>
             </tr>
         </thead>
         <tbody>
             
             <tr>
-                <td><a href="/lolbas/Produtos/LuaraSoaresArt/" class="bin-name">Luara Soares Art</a></td>
+                <td><a href="/lolbas/Aut%C3%B4nomo/LuaraSoaresArt/" class="bin-name">Luara Soares Art</a></td>
                 <td><ul class="function-list">
 	
 	
 	
-	<li><a href="/lolbas/Produtos/LuaraSoaresArt/#desenho">Desenho</a></li>
+	<li><a href="/lolbas/Aut%C3%B4nomo/LuaraSoaresArt/#desenho">Desenho</a></li>
 	
 	
-	<li><a href="/lolbas/Produtos/LuaraSoaresArt/#arte">Arte</a></li>
+	<li><a href="/lolbas/Aut%C3%B4nomo/LuaraSoaresArt/#arte">Arte</a></li>
 	
 </ul>
 
 	</td>
-				<td>Produtos</td>
+				<td>Autônomo</td>
             </tr>
             
             <tr>
-                <td><a href="/lolbas/Servi%C3%A7os/Conectar/" class="bin-name">Conectar Fotografias</a></td>
+                <td><a href="/lolbas/Empresa/Conectar/" class="bin-name">Conectar Fotografias</a></td>
                 <td><ul class="function-list">
 	
 	
 	
-	<li><a href="/lolbas/Servi%C3%A7os/Conectar/#fotografia">Fotografia</a></li>
+	<li><a href="/lolbas/Empresa/Conectar/#fotografia">Fotografia</a></li>
 	
 </ul>
 
 	</td>
-				<td>Serviços</td>
+				<td>Empresa</td>
             </tr>
             
             <tr>
-                <td><a href="/lolbas/Servi%C3%A7os/Tech/" class="bin-name">Tech Informática</a></td>
+                <td><a href="/lolbas/Empresa/Tech/" class="bin-name">Tech Informática</a></td>
                 <td><ul class="function-list">
 	
 	
 	
-	<li><a href="/lolbas/Servi%C3%A7os/Tech/#informatica">Informatica</a></li>
+	<li><a href="/lolbas/Empresa/Tech/#informatica">Informatica</a></li>
 	
 </ul>
 
 	</td>
-				<td>Serviços</td>
+				<td>Empresa</td>
             </tr>
             
         </tbody>
@@ -107,11 +107,11 @@
 
 	 var types = row.children[2].textContent.toLowerCase();
          
-         if (queryType === '/')
+         if (queryType === '#')
          {
                 var against = functions;
          }
-         else if (queryType === '#')
+         else if (queryType === '/')
          {
                 var against = types;
          }

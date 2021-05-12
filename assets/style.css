@@ -104,7 +104,8 @@ h2:hover .permalink, h3:hover .permalink, h4:hover .permalink, h5:hover .permali
 
 .bin-name {
   font-family: monospace;
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+  text-decoration: none; }
 
 .function-name {
   font-size: 1.4rem;

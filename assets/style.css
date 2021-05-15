@@ -9,7 +9,7 @@
   .github-corner {
     display: none; } }
 body {
-  font-family: sans, sans-serif; }
+  font-family: 'Montserrat', sans-serif; }
 
 code {
   padding: 0.15em 0.25em;
@@ -76,7 +76,7 @@ h2:hover .permalink, h3:hover .permalink, h4:hover .permalink, h5:hover .permali
   padding-bottom: 0px;
   padding-left: 14px;
   font-size: 14px;
-  font-family: arial,sans-serif; }
+  font-family: 'Montserrat', sans-serif; }
 
 .barra-pesquisa-texto {
   flex: 1;
@@ -145,7 +145,7 @@ h2:hover .permalink, h3:hover .permalink, h4:hover .permalink, h5:hover .permali
   margin-bottom: 20px; }
 
 .bin-name {
-  font-family: monospace;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.2rem;
   text-decoration: none; }
 

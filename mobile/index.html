@@ -122,20 +122,21 @@
 
 	 var types = row.children[2].textContent.toLowerCase();
          
-         if (queryType === '#')
-         {
-                var against = functions;
-         }
-         else if (queryType === '/')
-         {
-                var against = types;
-         }
-         else
-         {
-                var against = binName;
-         }
-
-         if (against.indexOf(query) !== -1) {
+       //  if (queryType === '#')
+        //  {
+        //         var against = functions;
+        //  }
+        //  else if (queryType === '/')
+        //  {
+        //         var against = types;
+        //  }
+        //  else
+        //  {
+        //         var against = binName;
+        //  }
+        
+         // Aqui podemos ajustar a busca para ir em qualquer campo sem precisar definir caracteres speciais
+         if (functions.indexOf(query) !== -1 || types.indexOf(query) !== -1 || binName.indexOf(query) !== -1) {
              row.style.display = '';
              noResults = false;
          } else {
